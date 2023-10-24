@@ -10,30 +10,34 @@ This project is a Django-based web application that tracks emissions data. The d
 
 ## Setup
 
-1. **Clone the Repository**:
+1.Clone the Repository:
    ```bash
    git clone <repository-url>
    cd <repository-name>
 
 
-Install Dependencies:
-pip install -r requirements.txt
+2.Install Dependencies:
+   ```bash
+    pip install -r requirements.txt
 
-Initialize the Database:
-python manage.py migrate
+3.Initialize the Database:
+   ```bash
+    python manage.py migrate
 
-Run the Development Server:
-python manage.py runserver
 
-Access the Admin Panel:
+4.Run the Development Server:
+   ```bash
+    python manage.py runserver
 
-Navigate to http://127.0.0.1:8000/admin/.
-Log in and manage the Emissions data.
+5.Access the Admin Panel:
+   ```bash
+    Navigate to http://127.0.0.1:8000/admin/.
+    Log in and manage the Emissions data.
 
-Access the Swagger Documentation:
-
-Navigate to `http://127.0.0.1:8000/swagger/`.
-Explore and test the API endpoints.
+6.Access the Swagger Documentation:
+   ```bash
+    Navigate to `http://127.0.0.1:8000/swagger/`.
+    Explore and test the API endpoints.
 
 ## API Endpoints
 
